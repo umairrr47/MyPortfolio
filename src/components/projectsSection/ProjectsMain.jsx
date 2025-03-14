@@ -1,34 +1,30 @@
-import ProjectsText from "./ProjectsText";
-import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import ProjectsText from "./ProjectsText";
+import SingleProject from "./SingleProject";
+import web1 from "../../assets/images/website-img-1.png"; 
+import web2 from "../../assets/images/website-img-2.png"; 
+import web3 from "../../assets/images/website-img-3.png"; 
 
 const projects = [
   {
     name: "FitNexus Fitness Platform",
     align: "right",
-    image: "../../public/images/website-img-1.png",
+    image: web1,  
     link: "#",
   },
   {
     name: "Cynthia Ugwu Page",
     align: "left",
-    image: "../../public/images/website-img-2.png",
+    image: web2, 
     link: "#",
   },
   {
     name: "Glint Landing Page",
     align: "right",
-    image: "../../public/images/website-img-3.png",
+    image: web3, 
     link: "#",
   },
-  // {
-  //   name: "Bank of Luck",
-  //   year: "May2024",
-  //   align: "left",
-  //   image: "../../public/images/website-img-4.jpg",
-  //   link: "#",
-  // },
 ];
 
 const ProjectsMain = () => {
@@ -43,17 +39,14 @@ const ProjectsMain = () => {
         <ProjectsText />
       </motion.div>
       <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
-        {projects.map((project, index) => {
-          return (
-            <SingleProject
-              key={index}
-              name={project.name}
-              year={project.year}
-              align={project.align}
-              image={project.image}
-            />
-          );
-        })}
+        {projects.map((project, index) => (
+          <SingleProject
+            key={index}
+            name={project.name}
+            align={project.align}
+            image={project.image}
+          />
+        ))}
       </div>
     </div>
   );

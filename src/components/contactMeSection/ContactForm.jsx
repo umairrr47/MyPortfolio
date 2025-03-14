@@ -10,7 +10,7 @@ const ContactForm = () => {
     setName(e.target.value);
   };
   const handleEmail = (e) => {
-    setEmail(e.target.value);
+    setEmail(e.target.value);a
   };
   const handleMessage = (e) => {
     setMessage(e.target.value);
@@ -19,8 +19,8 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_ko3hmpt", "template_ahbmmqd", form.current, {
-        publicKey: "I6HAT5mUZH7WHabGE",
+      .sendForm("service_m3bqdu4", "template_0xg7w1q", form.current, {
+        publicKey: "lc1Ac0ibiF3r5P2cV",
       })
       .then(
         () => {
