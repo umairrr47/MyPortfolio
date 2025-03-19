@@ -5,6 +5,7 @@ import SingleProject from "./SingleProject";
 import web1 from "../../assets/images/website-img-1.png"; 
 import web2 from "../../assets/images/website-img-2.png"; 
 import web3 from "../../assets/images/website-img-3.png"; 
+import web4 from "../../assets/images/website-img-4.png"; 
 
 const projects = [
   {
@@ -14,7 +15,7 @@ const projects = [
     link: "#",
   },
   {
-    name: "Cynthia Ugwu Page",
+    name: "Cynthia Ugwu",
     align: "left",
     image: web2, 
     link: "#",
@@ -23,6 +24,12 @@ const projects = [
     name: "Glint Landing Page",
     align: "right",
     image: web3, 
+    link: "#",
+  },
+  {
+    name: "AI-Workflow Website",
+    align: "left",
+    image: web4, 
     link: "#",
   },
 ];
