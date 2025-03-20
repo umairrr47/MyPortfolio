@@ -1,9 +1,9 @@
 const SubHeroMain = () => {
   return (
-    <div className="w-full border-y bg-brown border-lightGrey text-lightGrey flex justify-around uppercase xl:text-4xl md:text-2xl sm:text-4xl py-8 md:flex-row sm:flex-col items-center gap-4">
-      <p className="md:block sm:hidden">Fast Learner</p>
-      <p className="md:block sm:hidden">Team Work</p>
-      <p>Details Master</p>
+    <div className="w-full border-y bg-brown border-lightGrey text-lightGrey flex flex-wrap justify-center md:justify-around uppercase text-xl sm:text-2xl md:text-3xl xl:text-4xl py-6 gap-4 text-center">
+      <p className="w-full md:w-auto">Fast Learner</p>
+      <p className="w-full md:w-auto">Team Work</p>
+      <p className="w-full md:w-auto">Details Master</p>
     </div>
   );
 };
