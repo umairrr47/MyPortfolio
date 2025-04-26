@@ -3,8 +3,8 @@ import { fadeIn } from "../../framerMotion/variants";
 import ProjectsText from "./ProjectsText";
 import SingleProject from "./SingleProject";
 import web1 from "../../assets/images/website-img-1.png"; 
-import web2 from "../../assets/images/website-img-2.png"; 
-import web3 from "../../assets/images/website-img-3.png"; 
+import Brick from "../../assets/images/brick.png"; 
+import Edumall from "../../assets/images/edumal.png"; 
 import web4 from "../../assets/images/website-img-4.png"; 
 
 const projects = [
@@ -12,19 +12,19 @@ const projects = [
     name: "FitNexus Fitness Platform",
     align: "right",
     image: web1,  
-    link: "#",
+    link: "https://fit-nexus-seven.vercel.app/",
   },
   {
-    name: "Cynthia Ugwu",
+    name: "Brick Kiln Website",
     align: "left",
-    image: web2, 
-    link: "#",
+    image: Brick, 
+    link: "https://star-brick.vercel.app/",
   },
   {
-    name: "Glint Landing Page",
+    name: "EduMall",
     align: "right",
-    image: web3, 
-    link: "#",
+    image: Edumall, 
+    link: "https://edumall-ten.vercel.app/",
   },
   {
     name: "AI-Workflow Website",
