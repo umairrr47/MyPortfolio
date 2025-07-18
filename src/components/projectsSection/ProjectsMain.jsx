@@ -5,13 +5,13 @@ import SingleProject from "./SingleProject";
 import web1 from "../../assets/images/website-img-1.png"; 
 import Brick from "../../assets/images/brick.png"; 
 import Edumall from "../../assets/images/edumal.png"; 
-import Bayskin from "../../assets/images/Bayskinn.png"
+import BaySkin from "../../assets/images/BaySkinn.png"
 
 const projects = [
   {
     name: "BaySkin Skin Care Clinic",
     align: "right",
-    image: Bayskin,  
+    image: BaySkin,  
     link: "https://bayskin.in/",
   },
   {
