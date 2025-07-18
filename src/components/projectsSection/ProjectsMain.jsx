@@ -5,14 +5,14 @@ import SingleProject from "./SingleProject";
 import web1 from "../../assets/images/website-img-1.png"; 
 import Brick from "../../assets/images/brick.png"; 
 import Edumall from "../../assets/images/edumal.png"; 
-import web4 from "../../assets/images/website-img-4.png"; 
+import Bayskin from "../../assets/images/Bayskinn.png"
 
 const projects = [
   {
-    name: "FitNexus Fitness Platform",
+    name: "BaySkin Skin Care Clinic",
     align: "right",
-    image: web1,  
-    link: "https://fit-nexus-seven.vercel.app/",
+    image: Bayskin,  
+    link: "https://bayskin.in/",
   },
   {
     name: "Brick Kiln Website",
@@ -21,16 +21,17 @@ const projects = [
     link: "https://star-brick.vercel.app/",
   },
   {
-    name: "EduMall",
+    name: "FitNexus Fitness Platform",
     align: "right",
+    image: web1,  
+    link: "https://fit-nexus-seven.vercel.app/",
+  },
+  
+  {
+    name: "EduMall",
+    align: "left",
     image: Edumall, 
     link: "https://edumall-ten.vercel.app/",
-  },
-  {
-    name: "AI-Workflow Website",
-    align: "left",
-    image: web4, 
-    link: "#",
   },
 ];
 
