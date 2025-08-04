@@ -27,7 +27,7 @@ const NavbarMain = () => {
       variants={navbarVariants}
       initial="hidden"
       animate="visible"
-      className="fixed w-full top-0 z-50 px-4 md:px-6 lg:px-8"
+      className="fixed w-full top-1 z-50 px-4 md:px-6 lg:px-8"
     >
       <div className="max-w-[1400px] mx-auto w-full">
         <div className="relative flex items-center justify-between w-full backdrop-blur-md bg-black/80 py-4 px-6 md:px-8 rounded-full border border-orange/20 shadow-lg shadow-orange/10">
