@@ -6,19 +6,32 @@ import web1 from "../../assets/images/website-img-1.png";
 import Brick from "../../assets/images/brick.png"; 
 import Edumall from "../../assets/images/edumal.png"; 
 import BaySkin from "../../assets/images/BaySkinn.png"
+import PizzaOven from "../../assets/images/pizzaoven.png"
 
 const projects = [
   {
-    name: "BaySkin Skin Care Clinic",
+    name: "Pizza Oven By Saif",
     align: "right",
+    image: PizzaOven,  
+    link: "https://pizza-oven-by-saif.vercel.app/",
+  },
+  {
+    name: "BaySkin Skin Care Clinic",
+    align: "left",
     image: BaySkin,  
     link: "https://bayskin.in/",
   },
   {
     name: "Brick Kiln Website",
-    align: "left",
+    align: "right",
     image: Brick, 
     link: "https://star-brick.vercel.app/",
+  },
+   {
+    name: "EduMall",
+    align: "left",
+    image: Edumall, 
+    link: "https://edumall-ten.vercel.app/",
   },
   {
     name: "FitNexus Fitness Platform",
@@ -26,13 +39,7 @@ const projects = [
     image: web1,  
     link: "https://fit-nexus-seven.vercel.app/",
   },
-  
-  {
-    name: "EduMall",
-    align: "left",
-    image: Edumall, 
-    link: "https://edumall-ten.vercel.app/",
-  },
+ 
 ];
 
 const ProjectsMain = () => {
