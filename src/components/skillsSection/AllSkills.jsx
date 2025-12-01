@@ -6,6 +6,7 @@ import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -31,6 +32,10 @@ const skills = [
   {
     skill: "ReactJS",
     icon: FaReact,
+  },
+  {
+      skill: "NodeJs",
+      icon : FaNodeJs,
   },
   {
     skill: "GitHub",
